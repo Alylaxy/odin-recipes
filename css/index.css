@@ -1,0 +1,107 @@
+
+body {
+	background-color: #353535;
+	color: #b6b6b6;
+}
+
+a:link {
+	color: #b6b6b6;
+}
+
+a:visited {
+	color: rgb(8, 95, 26);
+}
+
+a:hover {
+	color: rgb(10, 119, 32);
+}
+
+a:active {
+	color: rgb(22, 105, 38);
+}
+
+/* Make headings white  */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #b6b6b6;
+}
+
+/* Make paragraphs white  */
+
+p {
+	color: #b6b6b6;
+}
+
+/* Make lists white  */
+
+li {
+	color: #b6b6b6;
+}
+
+/* Make horizontal rules white  */
+
+hr {
+	color: rgb(0, 133, 27);
+}
+
+/* Make the footer white  */
+
+footer {
+	color: #353535;
+}
+
+/* Make the footer text white  */
+
+footer p {
+	color: #b6b6b6;
+}
+
+/* Make the footer link white  */
+
+footer a:link {
+	color: #b6b6b6;
+}
+
+/* Make the footer visited links purple  */
+
+footer a:visited {
+	color: rgb(8, 95, 26);
+}
+
+/* Make the footer links turn purple when hovered over  */
+
+footer a:hover {
+	color: rgb(10, 119, 32);
+}
+
+/* Make the footer links turn purple when clicked  */
+
+footer a:active {
+	color: rgb(22, 105, 38);
+}
+
+/* Make the footer headings white  */
+
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+	color: #b6b6b6;
+}
+
+/* Make the footer paragraphs white  */
+
+footer p {
+	color: #b6b6b6;
+}
+
+/* Make the footer lists white  */
+
+footer li {
+	color: #b6b6b6;
+}
+
+/* Make the footer horizontal rules white  */
+
+footer hr {
+	color: rgb(0, 133, 27);
+}
+
+/* Make the background of the footer black
