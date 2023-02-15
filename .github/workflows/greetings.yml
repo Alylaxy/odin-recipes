@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Hey! Thank you for your input! I'm still learning and this probably isn't how this website will look like.\n\nBut please, feel free to write issues, be them recommendations or actually issues you found while browsing my website.\n\nOnce again, thank you very much! I'm accepting all the help I can while I learn."
+        pr-message: "Hey! Thank you for your input! I thank you sincerely for contributing to this personal project.\n\nJust remember to don't PR to development/main, as that is my primary branch and it's where I store things I've actually learned.\n\nOnce again, thank you very much! I'm accepting all the help I can while I learn."
